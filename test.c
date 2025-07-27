@@ -51,7 +51,7 @@ int main() {
     // Reflection: reflect v1 across x-axis normal (1,0)
     normal = vec2_new(1.0, 0.0);
     refl = vec2_reflect(v1, normal);
-    assert(vec2_approx_eq(refl, vec2_new(3.0, -4.0)));
+    assert(vec2_approx_eq(refl, vec2_new(-3.0, 4.0)));
 
     // Constants test
     vec2(double) zero = vec2_zero(double);
