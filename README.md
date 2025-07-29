@@ -2,6 +2,8 @@
 
 Hacky 2D vector library that abuses macros & `complex`.
 
+Inspired by [endoh1.c](https://github.com/LeoColomb/FluidASCII/blob/master/endoh1.c)
+
 # Usage
 
 ```c
